@@ -1,0 +1,7 @@
+version: '3.0'
+
+services:
+  hello-compose:
+    build: .
+    ports: 
+      - 5050:3000
